@@ -1,0 +1,13 @@
+site_name: Proj1 - 2016 - 2S
+pages:
+  - Home: 'index.md'
+theme: bootstrap
+extra_css:
+  - css/extra.css
+extra_javascript:
+  - js/extra.js
+markdown_extensions:
+  - smarty
+  - sane_lists
+site_favicon: 'imgs/shuffling.gif'
+# repo_url: https://github.com/puccjogos/LabAudio-2016-2S
