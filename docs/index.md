@@ -1,47 +1,76 @@
 # Projeto Integrado 1
 
-<center>![](imgs/shuffling.gif)</center>
+<div style="width:64px; margin: 16px auto;"> <img src="imgs/shuffling.gif" /> </div>
 
 Este site é a apostila digital da disciplina *Projeto integrado 1*, ministrada no 2º semestre de 2016 no curso de Tecnologia em Jogos Digitais da PUC-Campinas. Aqui você encontra os links para materiais teóricos e práticos, assim como outras informações relevantes.
 
 ## Cronograma
 
-| Data | Conteúdo |
-|---|---|
-| XX/XX | [A01 - Introdução à produção sonora](aulas/01-producao-sonora.md) |
-| XX/XX | [A02 - Som digital](aulas/02-som-digital.md) |
-| XX/XX | [A03 - Efeitos sonoros (SFX)](aulas/03-efeitos-sonoros.md) |
-| XX/XX | [A04 - Oficina de SFX](aulas/04-oficina-sfx.md) |
-| XX/XX | [A05 - Implementação de SFX na Unity](aulas/05-implementacao-sfx-unity.md) |
-| XX/XX | [A08 - Introdução à teoria musical](aulas/08-intro-teoria-musical.md) |
-| XX/XX | [A11 - Introdução à mixagem](aulas/11-intro-mixagem.md) |
+| Data  | Conteúdo                                                       | 
+|-------|----------------------------------------------------------------| 
+| 03/08 | [Panorama da indústria](aulas/panorama-industria.md)           | 
+| 10/08 | [Equipes e etapas de desenvolvimento](aulas/equipes-e-etapas.md) | 
+| 17/08 | [Introdução ao game design](aulas/intro-gd.md)                 | 
+| 24/08 | Divisão de grupos / [Processos de ideação](aulas/processos-ideacao.md)              | 
+| 31/08 | *Semana Integrada*             | 
+| 07/09 | *Feriado*                                                      | 
+| 14/09 | [Documentação e GDDs](aulas/documentacao-gdd.md)               | 
+| 21/09 | [Greenlight de projetos]()                                         | 
+| 28/09 | Playtest 1                                                     | 
+| 05/10 | [Reflexão sobre playtests]() / Acompanhamento                      | 
+| 12/10 | *Feriado*                                                      | 
+| 19/10 | [Equilibrando um jogo de tabuleiro]() / Acompanhamento             | 
+| 26/10 | Playtest 2                                                     | 
+| 02/11 | *Feriado*                                                      | 
+| 09/11 | [Preparando um protótipo para entrega]() / Acompanhamento          | 
+| 16/11 | Playtest 3                                                     | 
+| 23/11 | Apresentações                                                  | 
+| 30/11 | Apresentações                                                  | 
+| 07/12 | Sessão de jogos e debate                                       | 
+| 14/12 | Fechamento da disciplina                                       |  
 
-## Objetivos da disciplina
+## Plano de ensino
 
-| | 
-|---|---|
-| Ementa | Produção de áudio no meio digital. Ferramentas e técnicas para produção de áudio em versões digitais. Planejamento e elaboração de mensagens e sons para peças no formato digital. Discernimento e definição dos formatos sonoros. |
-| Objetivos gerais | Compreender a função narrativa do som em obras audiovisuais, priorizando a produção em Jogos Digitais. |
-| Objetivos específicos | Produzir trilha sonora. Criar sons para ambientação. Editar trilhas sonoras em sincronismo de imagem e som. Implementar sons em um jogo digital. |
-| Conteúdo programático | 1. Evolução histórica dos sistemas de gravação e reprodução de áudio;<br/>2. Microfones: tipos físicos e utilização;<br/>3. Técnicas de captação de som direto;<br/>4. Percepção do universo sonoro;<br/>5. Uso de som direto e/ou dublagem em obras audiovisuais;<br/>6. Conceito de trilha sonora;<br/>7. Conceito de decupagem sonora;<br/>8. Uso narrativo da trilha sonora em obras audiovisuais;<br/>9. Implementação de sons em jogos digitais;<br/>10. Sintetização e música procedural; |
+### Ementa
+
+Desenvolvimento coordenado pelo CLC. Criação de roteiros para jogos digitais.
+
+### Objetivos gerais 
+
+Organizar a metodologia no desenvolvimento de projeto voltada para a documentação de um jogo digital partindo do caráter multidisciplinar do curso.
+
+### Objetivos específicos
+
+- Conciliar conhecimentos apreendidos nas diferentes disciplinas.
+- Experimentar com a prática de processos de ideação para jogos
+- Aplicar os conhecimentos adquiridos na elaboração da documentação e de projetos de jogos que serão desenvolvidos nas disciplinas de Projeto Integrado.
+
+### Conteúdo programático
+
+1. Projetos de jogos, do analógico ao digital
+2. Processos de ideação em jogos
+3. O que é um Projeto Multimídia e como ele é desenvolvido
+4. Tema Central: como desenvolver
+5. Metodologia: técnicas de pesquisa para o desenvolvimento do projeto teórico e prático
+6. Documentação: organização da documentação do Jogo Digital, visando o desenvolvimento.
 
 ## Avaliação
 
-Avaliação dessa disciplina apresenta três componentes:
+A avaliação será constituída de 3 componentes principais:
 
-1. Avaliação individual continuada - Atividades práticas e teóricas ao longo da disciplina 
-2. Avaliação coletiva continuada - Atividades práticas coletivas ao longo da disciplina
-3. Avaliação final individual - Prova escrita no final do curso
+- **Avaliação continuada individual**: atividades entregues no decorre da disciplina, abordando tópicos tratados em sala.
+- **Avaliação continuada coletiva**: atividades entregues no decorrer da disciplina, tratando do desenvolvimento de projetos coletivos
+- **Avaliação final coletiva**: entrega e apresentação de portfolio final de projeto
 
-#### Nota final  
+### Nota final  
 
-(Atividades individuais x 3) + (Atividades coletivas x 3) + (Prova individual x 4)
+(Atividades individuais x 3) + (Atividades coletivas x 3) + (Portfólio final x 4)
 
-#### Recuperação
+### Recuperação
 
-Os exercícios faltantes ou insuficientes poderão ser refeitos e entregues em novas datas. A prova individual terá uma prova substitutiva para alunos faltantes ou com média insuficiente.
+As atividades com avaliação insuficiente poderão ser refeitas e entregues em novas datas para nova avaliação. Será realizada a média simples da avaliação anterior com a recuperação. Atividades não entregues não terão possibilidade de nova avaliação. 
 
-#### Integridade Acadêmica
+## Integridade Acadêmica
 
 A constatação de cola ou plágio em qualquer atividade avaliada (prova ou atividade prática) implicará em reprovação na disciplina dos alunos envolvidos, com nota zero. Entende-se por envolvidos tanto os alunos que fizeram a cola (ou plágio) como os que permitiram que ela fosse feita. Dependendo da gravidade do incidente, as devidas autoridades institucionais serão acionadas para a adoção das sanções disciplinares cabíveis. 
 

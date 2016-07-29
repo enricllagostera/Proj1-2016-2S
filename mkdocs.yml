@@ -1,6 +1,14 @@
 site_name: Proj1 - 2016 - 2S
 pages:
   - Home: 'index.md'
+  - Aulas:
+    - 'Introdução à indústria' : 'aulas/introducao-industria.md'
+    - 'Panorama da indústria' : 'aulas/panorama-industria.md'
+    - 'Equipes e etapas de desenvolvimento' : 'aulas/equipes-e-etapas.md'
+    - 'Introdução ao game design' : 'aulas/intro-gd.md'
+    - 'Documentação e GDDs' : 'aulas/documentacao-gdd.md'
+    - 'Processos de ideação' : 'aulas/processos-ideacao.md'
+  - Referências : 'referencias.md'
 theme: bootstrap
 extra_css:
   - css/extra.css
@@ -10,4 +18,4 @@ markdown_extensions:
   - smarty
   - sane_lists
 site_favicon: 'imgs/shuffling.gif'
-# repo_url: https://github.com/puccjogos/LabAudio-2016-2S
+repo_url: https://github.com/puccjogos/proj1-2016-2s
