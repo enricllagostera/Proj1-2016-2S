@@ -2,8 +2,8 @@ site_name: Proj1 - 2016 - 2S
 pages:
   - Home: 'index.md'
   - Aulas:
-    - 'Introdução à indústria' : 'aulas/introducao-industria.md'
-    - 'Panorama da indústria' : 'aulas/panorama-industria.md'
+    - 'Introdução e panorama da indústria' : 'aulas/panorama-industria.md'
+    - 'Por que fazer jogos?' : 'aulas/por-que-fazer-jogos.md'
     - 'Equipes e etapas de desenvolvimento' : 'aulas/equipes-e-etapas.md'
     - 'Introdução ao game design' : 'aulas/intro-gd.md'
     - 'Documentação e GDDs' : 'aulas/documentacao-gdd.md'

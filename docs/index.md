@@ -8,13 +8,13 @@ Este site é a apostila digital da disciplina *Projeto integrado 1*, ministrada 
 
 | Data  | Conteúdo                                                       | 
 |-------|----------------------------------------------------------------| 
-| 03/08 | [Panorama da indústria](aulas/panorama-industria.md)           | 
-| 10/08 | [Equipes e etapas de desenvolvimento](aulas/equipes-e-etapas.md) | 
+| 03/08 | Introdução e [panorama da indústria](aulas/panorama-industria.md)           | 
+| 10/08 | [Por que fazer jogos?](aulas/por-que-fazer-jogos) / [Equipes e etapas de desenvolvimento](aulas/equipes-e-etapas.md) | 
 | 17/08 | [Introdução ao game design](aulas/intro-gd.md)                 | 
 | 24/08 | Divisão de grupos / [Processos de ideação](aulas/processos-ideacao.md)              | 
-| 31/08 | *Semana Integrada*             | 
+| 31/08 | [Documentação e GDDs](aulas/documentacao-gdd.md)              | 
 | 07/09 | *Feriado*                                                      | 
-| 14/09 | [Documentação e GDDs](aulas/documentacao-gdd.md)               | 
+| 14/09 | *Semana Integrada*              | 
 | 21/09 | [Greenlight de projetos]()                                         | 
 | 28/09 | Playtest 1                                                     | 
 | 05/10 | [Reflexão sobre playtests]() / Acompanhamento                      | 
