@@ -131,22 +131,73 @@
     
         <li class="main active"><a href="#documentacao-e-gdds">Documentação e GDDs</a></li>
         
+            <li><a href="#vantagens-e-objetivos-de-gdds">Vantagens e objetivos de GDDs</a></li>
+        
+            <li><a href="#desvantagens-e-problemas-de-gdds">Desvantagens e problemas de GDDs</a></li>
+        
+            <li><a href="#metodologias">Metodologias</a></li>
+        
+            <li><a href="#como-criar-um-gdd">Como criar um GDD?</a></li>
+        
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h2 id="documentacao-e-gdds">Documentação e GDDs</h2>
-<p>Apresentação de abordagens:</p>
+<h1 id="documentacao-e-gdds">Documentação e GDDs</h1>
+<p>Um dos principais documentos utilizados durante o desenvolvimento de jogos é o documento de game design (ou game design document GDD). Nesse documento, estão detalhados diferentes aspectos do jogo, voltados a explicar a experiência desejada pelos designers, assim como seu funcionamento, objetivos e regras, principais decisões estéticas e outras considerações. Não existe um único padrão ou abordagem para a elaboração desse tipo de documento, então vamos ver alguns métodos diferentes para lidar com essa documentação.</p>
+<h3 id="vantagens-e-objetivos-de-gdds">Vantagens e objetivos de GDDs</h3>
 <ul>
-<li><a href="http://www.sbgames.org/sbgames2013/proceedings/artedesign/15-dt-paper_SGDD.pdf">Short Game Design Document</a></li>
-<li><a href="http://pixelatto.com/simple-gdd/">Simple Game Design Document</a></li>
+<li>Comunicar a visão do designer de forma clara</li>
+<li>Ajudar a esclarecer dúvidas em relação a diferentes aspectos do jogo, principalmente escopo</li>
+<li>Marcar detalhes importantes para manter o caráter único do jogo</li>
+<li>Dar uma base comum para que as diferentes especialidades desenvolvam suas áreas</li>
+</ul>
+<h3 id="desvantagens-e-problemas-de-gdds">Desvantagens e problemas de GDDs</h3>
+<ul>
+<li>Pode ficar desatualizado rapidamente  </li>
+<li>Pode ficar grande demais e não ser lido</li>
+<li>Nível de detalhe incoerente: toda a vida de um personagem, poucos detalhes sobre mecânica principal</li>
+<li>Podem ser uma grande perda de tempo de desenvolvimento</li>
+<li>Podem engessar ideias que ainda não foram comprovadas por testes</li>
+<li>Designers se apegam a GDDs</li>
+</ul>
+<h2 id="metodologias">Metodologias</h2>
+<h3 id="short-game-design-document-shgdd"><a href="http://www.sbgames.org/sbgames2013/proceedings/artedesign/15-dt-paper_SGDD.pdf">Short Game Design Document (ShGDD)</a></h3>
+<p><img alt="SiGDD" src="../../imgs/sgdd.PNG" /></p>
+<p>Formato reduzido e simples voltado para game jams e trabalhos escolares que precisam de documentação resumida e que já incorpora elementos de gestão de projetos.</p>
+<h3 id="simple-game-design-document-sigdd-e-game-design-macro"><a href="http://pixelatto.com/upload/GameDesignDraft.pdf">Simple Game Design Document (SiGDD)</a> e <a href="../../materiais/game-design-macro.pdf">Game Design Macro</a></h3>
+<p>Formatos para criação de game designs de alto nível (menos detalhes, mais ideias gerais). O foco está numa apresentação resumida em que seja fácil diferenciar ideias e apresentar todos os principais aspectos de uma ideia de jogo.</p>
+<ul>
 <li><a href="http://stonetronix.com/gdc-2010/OnePageDesigns.ppt">One-Page Design</a></li>
-<li><a href="http://www.buddroyce.com/wp-content/uploads/2013/03/GameDesignCanvas_ShareMe_Fillable.pdf">Game Design Canvas</a></li>
+<li><a href="http://www.buddroyce.com/wp-content/uploads/2013/03/GameDesignCanvas_ShareMe_Fillable.pdf">Game Design Canvas</a><ul>
+<li>Versão em português para impressão <a href="../../materiais/game-design-macro.pdf">aqui</a></li>
+</ul>
+</li>
 <li><a href="http://www.lostgarden.com/2011/05/game-design-logs.html">Game Design Log</a></li>
 </ul>
 <p><img alt="Diagrama de um game design log" src="../../imgs/game-design-log.png" /></p>
-<p><em>Diagrama de um </em>game design log<em>.</em></p></div>
+<p><em>Diagrama de um </em>game design log<em>.</em></p>
+<h2 id="como-criar-um-gdd">Como criar um GDD?</h2>
+<ol>
+<li>Usar ferramentas que facilitem colaboração, seja presencial ou à distância (comentários, marcar pessoas, histórico). <em>Exemplos: Google Docs / Planilhas, Trello</em>.</li>
+<li>Tornar uma pessoa responsável pela manutenção e atualização do GDD, mas aberta aos inputs de todos.</li>
+<li>Use imagens (próprias ou com licenças adequadas) quando possível, pois às vezes um diagrama ou mockup explica melhor uma feature do que muitas palavras.</li>
+<li>Lembre-se: cada jogo vai acabar tendo um GDD diferente, para atender suas necessidades específicas. Pense no que é mais importante para seu jogo.</li>
+</ol>
+<blockquote>
+<p>Por exemplo, um documento de Super Mario Bros. possivelmente teria um capítulo sobre 1) Movimentação, 2) Inimigos, 3) Elementos do level, 4) Levels, 5)Limitações de gameplay e 6)Feedback sonoro e visual. No primeiro capítulo, seria descrito a movimentação do Mario, no que ela era semelhante a outros jogos plataforma da sua época e no que ela era diferente. No segundo, cada um dos inimigos seria descrito e como eles funcionavam. No terceiro, o funcionamento das estruturas do mundo como os buracos, os tubos, as plataformas que podem ser atravessadas ou não, destruídas ou não e a bandeira de fim de fase. O capítulo de levels daria uma intro de quantos mundos e quantos levels por mundo existem, mencionando as mudanças estéticas e de level design em cada um deles. O quinto capítulo falaria do sistema de vidas, de pontos e de tempo, ou seja, tudo que limita o jogador e adiciona dificuldade ao jogo que é externo ao level design. Por fim, o capítulo de feedback explicaria a musica e efeito visual de pegar uma estrela, os efeitos de morte, o som de pegar uma moeda, a aceleração da musica quando o tempo está acabando etc. (<em>Thais Weiller</em>)</p>
+</blockquote>
+<h3 id="exemplo-gdd-de-pitch-de-diablo-1">Exemplo: GDD de pitch de Diablo 1</h3>
+<iframe src="http://docs.google.com/gview?url=http://www.graybeardgames.com/download/diablo_pitch.pdf&embedded=true" style="width:100%;height:300px;" frameborder="0"></iframe>
+
+<hr />
+<h3 id="referencias">Referências</h3>
+<ul>
+<li>FULLERTON, T. <strong>Game design workshop: a playcentric approach to creating innovative games.</strong> 2nd ed. Amsterdam ;;Boston: Elsevier Morgan Kaufmann, 2008. 
+SCHELL, J. <strong>A arte do game design: o livro original.</strong> [s.l.] CRC Press, 2010. </li>
+<li>WEILLER, T. <strong>GDD: quando, onde e como.</strong> Disponível em: <a href="http://gamestartlivro.net/post/138084851042/gdd-quando-onde-e-como">http://gamestartlivro.net/post/138084851042/gdd-quando-onde-e-como</a>. Acesso em: 30 ago. 2016. </li>
+</ul></div>
         </div>
 
 	<footer class="col-md-12">
