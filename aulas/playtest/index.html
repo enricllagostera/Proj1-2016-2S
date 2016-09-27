@@ -10,7 +10,7 @@
         <link rel="shortcut icon" href="../../imgs/shuffling.gif">
         
 
-	<title>Introdução ao game design - Proj1 - 2016 - 2S</title>
+	<title>Playtest - Proj1 - 2016 - 2S</title>
 
         <link href="../../css/bootstrap-3.0.3.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -74,8 +74,8 @@
                             <a href="../equipes-e-etapas/">Equipes e etapas de desenvolvimento</a>
                         </li>
                     
-                        <li class="active">
-                            <a href="./">Introdução ao game design</a>
+                        <li >
+                            <a href="../intro-gd/">Introdução ao game design</a>
                         </li>
                     
                         <li >
@@ -90,8 +90,8 @@
                             <a href="../prototipagem/">Prototipagem</a>
                         </li>
                     
-                        <li >
-                            <a href="../playtest/">Playtest</a>
+                        <li class="active">
+                            <a href="./">Playtest</a>
                         </li>
                     
                     </ul>
@@ -109,12 +109,12 @@
             <!-- Search, Navigation and Repo links -->
             <ul class="nav navbar-nav navbar-right">
                 <li >
-                    <a rel="next" href="../equipes-e-etapas/">
+                    <a rel="next" href="../prototipagem/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../documentacao-gdd/">
+                    <a rel="prev" href="../../referencias/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -137,11 +137,15 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#introducao-ao-game-design">Introdução ao game design</a></li>
+        <li class="main active"><a href="#playtesting">Playtesting</a></li>
         
-            <li><a href="#regras">Regras</a></li>
+            <li><a href="#auto-teste">Auto-teste</a></li>
         
-            <li><a href="#exercicio-em-sala">Exercício em sala</a></li>
+            <li><a href="#teste-com-conhecidos">Teste com conhecidos</a></li>
+        
+            <li><a href="#teste-com-desconhecidos">Teste com desconhecidos</a></li>
+        
+            <li><a href="#como-fazer-uma-sessao-de-playtesting">Como fazer uma sessão de playtesting</a></li>
         
             <li><a href="#referencias">Referências</a></li>
         
@@ -150,45 +154,33 @@
 </div></div>
             <div class="col-md-9" role="main">
 
-<h2 id="introducao-ao-game-design">Introdução ao game design</h2>
-<h3 id="regras">Regras</h3>
-<blockquote>
-<p>Um jogo é uma experiência criada por regras. (&hellip;) Um jogo não pode existir sem um ou mais jogadores: alguém tem que interagir com as regras para que a experiência aconteça.</p>
-<p>Um jogo é um diálogo entre jogadores e o jogo, e as regras que criamos são o vocabulário com o qual essa conversa acontece.</p>
-<p><em>Anna Anthropy, Rise of the videogame zinesters.</em></p>
-</blockquote>
-<p>As regras de um jogo têm de ser capazes de se desenvolverem, como um personagem em uma história. Novas formas de interagir com uma regra e suas relações com outras regras são esse desenvolvimento. </p>
-<p>Temos de evitar <strong>regras soltas</strong>, desconectadas ou isoladas do resto do jogo. Outro aspecto importante é a necessidade de <strong>explicar as regras ao jogador</strong> da forma mais clara e menos intrusiva possível, e por isso podemos usar uma série de técnicas, entre elas se destaca o uso de cenas, contextos e objetos adequados.</p>
-<p><img alt="Asphyx screenshot" src="../../imgs/drown.png" /></p>
-<p><em><a href="http://dl.droqbox.com/asphyx/">Asphyx, por Droqen</a></em></p>
-<h4 id="verbos">Verbos</h4>
-<blockquote>
-<p>Verbos são um tipo de regra; são as regras mais importantes de um jogo. Um &ldquo;verbo&rdquo; seria qualquer regra que dá ao jogador a liberdade de agir dentro das regras do jogo. Qualquer regra que deixa o jogador mudar o estado do jogo. Qualquer regra que permite fazer algo. (&hellip;)</p>
-<p>O papel do game design é criar as regras que dão forma à experiência do jogador, suas escolhas, sua performance. Regras são como nos comunicamos, e verbos são as regras que permitem ao jogador nos responder.</p>
-<p><em>Anna Anthropy, Rise of the videogame zinesters.</em></p>
-</blockquote>
-<h4 id="objetos">Objetos</h4>
-<p>São um outro tipo de regra, que define os objetos (e sujeitos) das sentenças definidas pelas regras. O objetivo é escolher objetos que permitam relações interessantes com os verbos e outros objetos do jogo. Para ficar mais concreto, olhe os exemplos abaixo:</p>
-<ul>
-<li>&ldquo;Somente o <strong>goleiro</strong> pode agarrar a <strong>bola</strong> com as mãos&rdquo;</li>
-<li>&ldquo;O <strong>nível de proteção</strong> do personagem é a soma de todos as <strong>partes de sua armadura</strong> mais <strong>efeitos mágicos</strong>&ldquo;</li>
-<li>&ldquo;O <strong>avestruz voador</strong> mata o <strong>pterodáctilo</strong> apenas se tocá-lo diretamente no <strong>focinho</strong>&ldquo;</li>
-</ul>
-<iframe width="100%" height="480" src="https://www.youtube.com/embed/iwrSyiS1YC0" frameborder="0" allowfullscreen></iframe>
-
-<p><em>Joust no Atari 2600</em></p>
-<h3 id="exercicio-em-sala">Exercício em sala</h3>
-<p>Usando os conceitos acima, vamos, em grupos, analisar os três jogos abaixo.</p>
-<ul>
-<li>Pega-pega</li>
-<li>Pac-man</li>
-<li>Xadrez</li>
-</ul>
-<hr />
-<h3 id="referencias">Referências</h3>
-<ul>
-<li>ANTHROPY, A.; CLARK, N. <strong>A Game Design Vocabulary: Exploring the Foundational Principles Behind Good Game Design.</strong> 1 edition ed. Indianapolis, IN: Addison-Wesley Professional, 2014. </li>
-</ul></div>
+<h1 id="playtesting">Playtesting</h1>
+<p>Playtesting é uma atividade central ao desenvolvimento de jogos. Agora, o que é playtesting? Existe uma certa confusão entre os diferentes tipos de teste que um jogo passa durante seu ciclo de desenvolvimento. Podemos distinguir entre algumas atividades parecidas com playtesting, mas que não cumprem o mesmo objetivo:</p>
+<ol>
+<li><em>Grupos de foco.</em> Testes do jogo (ou aspectos dele) com público-alvo com o objetivo de entender melhor a recepção desse público ao jogo.</li>
+<li><em>Testes de qualidade.</em> Profissionais de controle de qualidade (QA) experimentam o jogo para encontrar falhas de implementação, bugs e possíveis problemas de software.</li>
+<li><em>Revisão interna de design.</em> Quando a equipe do jogo testa para garantir que os objetivos de design buscados estão sendo alcançados.</li>
+</ol>
+<p>O principal objetivo de qualquer sessão de playtesting é sempre o mesmo: <strong>conseguir feedback de jogadores sobre a experiência de jogar o jogo.</strong> Esse feedback deve ser documentado e utilizado em futuras revisões e discussões sobre o jogo. Esse objetivo é contemplado nas diversas etapas de desenvolvimento do jogo de formas diferentes.</p>
+<p><img alt="Etapas de playtesting" src="../../imgs/playtesting.png" /></p>
+<h3 id="auto-teste">Auto-teste</h3>
+<p>Realizado pela própria equipe do jogo, de forma orgânica e informal. É quando a equipe joga os diferentes protótipos e versões, buscando sempre manter um distanciamento do que está sendo testado e feedbacks encontrados. É importante lembrar que a equipe é parcial em relação ao jogo e também que está profundamente acostumada com suas peculiaridades.</p>
+<h3 id="teste-com-conhecidos">Teste com conhecidos</h3>
+<p>Jogar o jogo com pessoas que não estão acostumadas com ele. Isso significa que essa versão do protótipo tem que estar completa o suficiente para que os jogadores tenham alguma autonomia para interpretar suas regras e jogar sem muita intervenção da equipe. É importante estar atento ao viés que pessoas próximas tem com o seu jogo, já que são amigos.</p>
+<h3 id="teste-com-desconhecidos">Teste com desconhecidos</h3>
+<p>Pessoas que você não conhece de antemão são o público mais imparcial, já que não tem nenhum motivo para querer agradar você. Trazem um novo olhar sobre o jogo e devem ser tratados com respeito e cuidado, para que estejam confortáveis para jogar de forma concentrada e sem empecilhos.</p>
+<h2 id="como-fazer-uma-sessao-de-playtesting">Como fazer uma sessão de playtesting</h2>
+<p>O melhor é tentar explicar o jogo o menos possível, para que o jogador tenha que entendê-lo por si só. Lembre-se: você não estará ao lado de cada jogador para explicar qualquer coisa quando o jogo for lançado.</p>
+<p>Uma maneira de organizar a sessão é ter uma pessoa em contato com o jogador e outra num papel de observador, apenas anotando o que o participante faz. É conveniente pedir que as pessoas joguem falando em voz alta o que estão pensando e tentando fazer. Isso ajuda a ter uma ideia melhor da experiência dela jogando o jogo.</p>
+<p>É importante resistir ao impulso de falar demais, perguntando e guiando demais a experiência do jogador. Uma forma de controlar esse impulso é criar um pequeno roteiro de teste, com o passo-a-passo para cada sessão, incluindo (em linhas gerais, não somos robôs) as falas para cada momento da sessão. Uma estrutura básica de roteiro para a sessão pode ser:</p>
+<ol>
+<li>Introdução com explicações básicas sobre a sessão.</li>
+<li>Discussão rápida para conhecer melhor o participante e sua experiência com jogos que seja relevante ao jogo testado.</li>
+<li>Sessão de jogo</li>
+<li>Discussão sobre experiência do jogador (prepare as questões de antemão)</li>
+</ol>
+<h2 id="referencias">Referências</h2>
+<p>FULLERTON, T. <strong>Game design workshop: a playcentric approach to creating innovative games.</strong> 2a ed. Boston: Elsevier Morgan Kaufmann, 2008.</p></div>
         </div>
 
 	<footer class="col-md-12">
